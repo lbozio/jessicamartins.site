@@ -64,6 +64,7 @@ src="https://www.facebook.com/tr?id=448136590747679&ev=PageView&noscript=1"
     window.addEventListener('popstate', function (event) {
         if (event.state) {
             setTimeout(function () {
+                alert (back_redirect_back_link);
                 location.href = back_redirect_back_link;
             }, 1);
         }
